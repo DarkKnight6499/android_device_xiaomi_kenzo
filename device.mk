@@ -278,3 +278,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
     wpa_supplicant_overlay.conf
+
+# BSOD Killer
+PRODUCT_COPY_FILES += \
+    device/xiaomi/kenzo/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
