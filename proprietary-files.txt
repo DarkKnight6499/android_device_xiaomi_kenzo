@@ -393,11 +393,64 @@ vendor/lib/libmmcamera_sunny_omi5f06_eeprom.so
 # Charger
 bin/hvdcp_opti
 
+<<<<<<< HEAD
+=======
+# CNE - from Mi Max
+bin/cnd|26d56a13390303a14279fff2e3175f325af9a86a
+etc/cne/andsfCne.xml|6cc3c91c180c648d431ea96d9b1e597c06b61505
+etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
+etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
+etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
+etc/permissions/ConnectivityExt.xml|1f043c7a3fbd5c87a5dfc323d627b0b24f081ab3
+framework/cneapiclient.jar|b7528f01053873b0287af6bb2e33dbc70d924ddf
+framework/com.quicinc.cne.jar|681ee7a2f2ba66cd3a2c4e35755cc1557d04a78f
+framework/ConnectivityExt.jar|20f419420b7cc60a8f647bca9cae9ca4ee425c4d
+vendor/lib64/libcne.so|f84fe536d5dbdfe5e49ffce9fd0f855df536e0bc
+vendor/lib64/libcneapiclient.so|f8292db18e246625879e5002f8691db7d4129304
+vendor/lib64/libcneconn.so|c65da233478f322b87bd3cf61caad4fac0500798
+vendor/lib64/libcneqmiutils.so|eb1c8b7c04587658406763b4a6a40d142cc98d6f
+vendor/lib64/libNimsWrap.so|d9e0f2a092c477a7d8eadf0ad0d1348b432ff3b8
+vendor/lib64/libvendorconn.so|a4d684336c6f5ff3c503c593c809e3036726bca1
+vendor/lib64/libwms.so|d6c70a631594444becb73f8f0fcae2d81546cd61
+vendor/lib64/libwqe.so|3e97b2ac7f3d54211a91d10002794458f0f40050
+vendor/lib/libcne.so|8201b964b433fb3c5916b33d8e739e03379d76d3
+vendor/lib/libcneapiclient.so|950cd4bdc4d401d37c889f5bc514e770120aabc6
+vendor/lib/libcneconn.so|fa729f81a1e537baa8b3fef47b065f5faa746b78
+vendor/lib/libcneqmiutils.so|68e1cc26e9e54370aeee724f4f2387d613a39168
+vendor/lib/libNimsWrap.so|944d35a58c70c1910be4031e94b78c6728f880c9
+vendor/lib/libvendorconn.so|f589970b3623937ff91f2ffbbc488e26d50854b6
+vendor/lib/libwms.so|8ee7509a948c8c67e836fef66c8a3d0e2d4a8bc3
+vendor/lib/libwqe.so|bd8eecd230d4aa12b42f8736984fb099c0e339ce
+
+>>>>>>> 81b9a2a... kenzo: Remove QC Location
 # Consumerir
 bin/consumerird
 lib64/hw/consumerir.msm8952.so
 lib/hw/consumerir.msm8952.so
 
+<<<<<<< HEAD
+=======
+# DPM - from Mi Max
+bin/dpmd|e046f9b99939d8db080126a05cd8e21d0b992ffb
+etc/dpm/dpm.conf|f7ab7d1d06ca387eda30275d9e06cba297e2eea2
+etc/dpm/nsrm/NsrmConfiguration.xml|6d1afdda3c0a6260406df1e7b39bacb8dcc31b37
+etc/permissions/com.qti.dpmframework.xml|1038acbf7d36553c4bbb2203fc6bedb6ad2af2c9
+etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
+framework/com.qti.dpmframework.jar|de0c491797d731090d3cc7a552e332fc367b20b7
+framework/dpmapi.jar|a6223976683a6fb128058f578453b2b99edb3de3
+framework/tcmclient.jar|1e65a2b94edcde72470a92a0432777bd2ee99fa5
+vendor/lib64/libdpmctmgr.so|edba77c5146d3ac855d37ed8c3a531dfbb128d31
+vendor/lib64/libdpmfdmgr.so|517e224cbe575ff1bfcd26cb8f6b074c159be64b
+vendor/lib64/libdpmframework.so|8264640203e4b1a6204b3e4a3eebbdac2ef17c76
+vendor/lib64/libdpmnsrm.so|1068153cbee91e794c79ba213cb5aeb59672be26
+vendor/lib64/libdpmtcm.so|0f749efccf31ff48230ded41531db0a77a6f0483
+vendor/lib/libdpmctmgr.so|b5c9e9f6642411d50e8b9915f8762f12034c60e3
+vendor/lib/libdpmfdmgr.so|d116a5c924452ddb9840a9890c91f89835ecef59
+vendor/lib/libdpmframework.so|41eb1d8cbda275ebb7a27ad9fdbad861fd9ad372
+vendor/lib/libdpmnsrm.so|dd36011559ecfce81f7876f5f0c5016baece6e7d
+vendor/lib/libdpmtcm.so|cb0b2bb1a3c70114d19f29c8345a6d0ab6f665c7
+
+>>>>>>> 81b9a2a... kenzo: Remove QC Location
 # DRM
 bin/qseecomd
 vendor/lib64/lib-sec-disp.so
@@ -433,9 +486,9 @@ lib/lib_fpc_tac_shared.so
 vendor/lib64/hw/gatekeeper.msm8952.so
 
 # GPS - from Mi Max
--lib64/libloc_api_v02.so|ebc6793dba2b02f7b1dfb14fbca2bd8420e1eecb
+-lib64/libloc_api_v02.so|948bb007b604aead954a8334e0e8b78129d5cb40
 -lib64/libloc_ds_api.so|bc8bd9bdcfe059f2dc4271d26c4eb6b3157362b2
--lib/libloc_api_v02.so|ef6f42a96ba4ce1de247967b2a6719014fd7b988
+-lib/libloc_api_v02.so|805e422712ed4b89047f5d7537bad89a251a0c0d
 -lib/libloc_ds_api.so|4f90c64b2028b2605dd0eeca80d6258142454f0b
 vendor/lib64/hw/flp.default.so|d2a8024770108fcbd28a80af3cd7337737a361c1
 vendor/lib64/libalarmservice_jni.so|0932315831ca736741f5fcc6419e8ebfa50e2880
@@ -443,10 +496,14 @@ vendor/lib64/libdataitems.so|9200be44aca23eb7ddd5b3d66e19bd453f81577f
 vendor/lib64/libflp.so|5d1dcfc2e2f7160f2cfb17d2b3af80f7949e249e
 vendor/lib64/libgeofence.so|d02e333674ab1c601d94a8dbd43294d56a147ef0
 vendor/lib64/libizat_core.so|98b0b039104228480e6bbae1a0293277fcd1f09e
-vendor/lib64/liblbs_core.so|290920322b2d2b321efd01c77d107c8304468849
+vendor/lib64/liblbs_core.so|96d55f5b454badb67fb59810e53c4e42dd3cb4bc
 vendor/lib64/libloc_ext.so|9e7fdb928be15b623d91cc28d6c1fbc9d408af4f
 vendor/lib64/libloc_xtra.so|5074fe23d66e041f1037c4f85594a7b3c3fe0a9b
+<<<<<<< HEAD
 vendor/lib64/liblocationservice.so|9de45669cef34c763e42f788fc1f861f4f3b93fa
+=======
+vendor/lib64/liblocationservice.so|d4e9f48dd675b19ad0efd71d9b3f4362457cd862
+>>>>>>> 81b9a2a... kenzo: Remove QC Location
 vendor/lib64/liblowi_client.so|56b8e9bed15ac0d63a31a2f3366fad792882c2da
 vendor/lib64/libulp2.so|2b9720b2aadb7a8c654dd80e75164b0e28186e01
 vendor/lib/hw/flp.default.so|8fe0c8e1c0dd49a95bc219105eb70c9f45149e3c
@@ -455,9 +512,13 @@ vendor/lib/libdataitems.so|f26410daa917af1045824090565cba41b0b299f8
 vendor/lib/libflp.so|64ff6f433d0d36edcf6d931e392567bcfe79f7e4
 vendor/lib/libgeofence.so|14943b5abe0406341aab7b1b0a9d7f4ee366ca4a
 vendor/lib/libizat_core.so|d89486ff26c4c31febca850af4db880db121cf18
-vendor/lib/liblbs_core.so|5e8c6de3ae75ff218ffb32134946f6ee34671ec8
+vendor/lib/liblbs_core.so|3b7d3e6ad09f0b3e626333adb8038f699991c8d8
 vendor/lib/libloc_ext.so|d796745aa4db9219cb3046d405e0a986cf056da3
+<<<<<<< HEAD
 vendor/lib/liblocationservice.so|a22feb08552d09163d0dbe78b98e0c8ea5b61ec0
+=======
+vendor/lib/liblocationservice.so|13b69940db0e7a5b7c7eebdd738a831784b0183d
+>>>>>>> 81b9a2a... kenzo: Remove QC Location
 vendor/lib/liblowi_client.so|601d7b0144b574ffe304fe6918440d396ced077c
 vendor/lib/libulp2.so|5cd2cdc85a0c4b61c9c8e233f38292e75b34533e
 
@@ -618,7 +679,6 @@ bin/rmt_storage|d1708d1eac9f5852d0db661e25a5a39044de0192
 etc/permissions/qcnvitems.xml|dc0e70cace2317b5169a454cbc2bbf8887c18d55
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a2f1a3bf5b7a325c456e8deb0bdd5ea75977ebb8
-vendor/lib64/libcneapiclient.so|f8292db18e246625879e5002f8691db7d4129304
 vendor/lib64/libconfigdb.so|a67206468da0f6c6ef75271ae1388ba240893e79
 vendor/lib64/libmdmdetect.so|39242836bede71c3c469962de7aac6f684263c46
 vendor/lib64/libnetmgr.so|7ca47ab7a658e9427154b6c120c6fa661beca043
