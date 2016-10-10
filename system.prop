@@ -31,9 +31,7 @@ voice.voip.conc.disabled=true
 
 # Bluetooth
 bluetooth.hfp.client=1
-<<<<<<< HEAD
 qcom.bluetooth.soc=smd
-=======
 
 # Camera
 persist.camera.HAL3.enabled=1
@@ -42,7 +40,6 @@ persist.camera.HAL3.enabled=1
 persist.cne.feature=1
 persist.dpm.feature=5
 persist.dpm.nsrm.bkg.evt=3955
->>>>>>> ecf7429... Revert "kenzo: Disable camera HAL3"
 
 # Dex2oat threads for faster app installation
 ro.sys.fw.dex2oat_thread_count=4
