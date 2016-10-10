@@ -393,8 +393,6 @@ vendor/lib/libmmcamera_sunny_omi5f06_eeprom.so
 # Charger
 bin/hvdcp_opti
 
-<<<<<<< HEAD
-=======
 # CNE - from Mi Max
 bin/cnd|26d56a13390303a14279fff2e3175f325af9a86a
 etc/cne/andsfCne.xml|6cc3c91c180c648d431ea96d9b1e597c06b61505
@@ -422,14 +420,11 @@ vendor/lib/libvendorconn.so|f589970b3623937ff91f2ffbbc488e26d50854b6
 vendor/lib/libwms.so|8ee7509a948c8c67e836fef66c8a3d0e2d4a8bc3
 vendor/lib/libwqe.so|bd8eecd230d4aa12b42f8736984fb099c0e339ce
 
->>>>>>> 81b9a2a... kenzo: Remove QC Location
 # Consumerir
 bin/consumerird
 lib64/hw/consumerir.msm8952.so
 lib/hw/consumerir.msm8952.so
 
-<<<<<<< HEAD
-=======
 # DPM - from Mi Max
 bin/dpmd|e046f9b99939d8db080126a05cd8e21d0b992ffb
 etc/dpm/dpm.conf|f7ab7d1d06ca387eda30275d9e06cba297e2eea2
@@ -450,7 +445,6 @@ vendor/lib/libdpmframework.so|41eb1d8cbda275ebb7a27ad9fdbad861fd9ad372
 vendor/lib/libdpmnsrm.so|dd36011559ecfce81f7876f5f0c5016baece6e7d
 vendor/lib/libdpmtcm.so|cb0b2bb1a3c70114d19f29c8345a6d0ab6f665c7
 
->>>>>>> 81b9a2a... kenzo: Remove QC Location
 # DRM
 bin/qseecomd
 vendor/lib64/lib-sec-disp.so
@@ -499,11 +493,8 @@ vendor/lib64/libizat_core.so|98b0b039104228480e6bbae1a0293277fcd1f09e
 vendor/lib64/liblbs_core.so|96d55f5b454badb67fb59810e53c4e42dd3cb4bc
 vendor/lib64/libloc_ext.so|9e7fdb928be15b623d91cc28d6c1fbc9d408af4f
 vendor/lib64/libloc_xtra.so|5074fe23d66e041f1037c4f85594a7b3c3fe0a9b
-<<<<<<< HEAD
 vendor/lib64/liblocationservice.so|9de45669cef34c763e42f788fc1f861f4f3b93fa
-=======
 vendor/lib64/liblocationservice.so|d4e9f48dd675b19ad0efd71d9b3f4362457cd862
->>>>>>> 81b9a2a... kenzo: Remove QC Location
 vendor/lib64/liblowi_client.so|56b8e9bed15ac0d63a31a2f3366fad792882c2da
 vendor/lib64/libulp2.so|2b9720b2aadb7a8c654dd80e75164b0e28186e01
 vendor/lib/hw/flp.default.so|8fe0c8e1c0dd49a95bc219105eb70c9f45149e3c
@@ -514,11 +505,8 @@ vendor/lib/libgeofence.so|14943b5abe0406341aab7b1b0a9d7f4ee366ca4a
 vendor/lib/libizat_core.so|d89486ff26c4c31febca850af4db880db121cf18
 vendor/lib/liblbs_core.so|3b7d3e6ad09f0b3e626333adb8038f699991c8d8
 vendor/lib/libloc_ext.so|d796745aa4db9219cb3046d405e0a986cf056da3
-<<<<<<< HEAD
 vendor/lib/liblocationservice.so|a22feb08552d09163d0dbe78b98e0c8ea5b61ec0
-=======
 vendor/lib/liblocationservice.so|13b69940db0e7a5b7c7eebdd738a831784b0183d
->>>>>>> 81b9a2a... kenzo: Remove QC Location
 vendor/lib/liblowi_client.so|601d7b0144b574ffe304fe6918440d396ced077c
 vendor/lib/libulp2.so|5cd2cdc85a0c4b61c9c8e233f38292e75b34533e
 
