@@ -29,6 +29,11 @@ voice.playback.conc.disabled=true
 voice.record.conc.disabled=false
 voice.voip.conc.disabled=true
 
+# ADB
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
 # Bluetooth
 bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
