@@ -124,8 +124,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8952 \
     liboverlay
 
-<<<<<<< HEAD
-=======
 # Doze mode
 PRODUCT_PACKAGES += \
     XiaomiDoze
@@ -134,7 +132,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.codeaurora.camera
 
->>>>>>> 2202d0d... kenzo: Add XiaomiDoze package
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd
