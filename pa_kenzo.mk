@@ -1,5 +1,5 @@
 #
-# Copyright 2015 The CyanogenMod Project
+# Copyright (C) 2016 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/config/common.mk)
+# Inherit some common AOSPA stuff.
+$(call inherit-product, vendor/pa/main.mk)
 
 # Inherit from kenzo device
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, device/xiaomi/kenzo/device.mk)
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := aicp_kenzo
+PRODUCT_NAME := pa_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
