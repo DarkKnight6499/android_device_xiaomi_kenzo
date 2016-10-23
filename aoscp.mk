@@ -23,6 +23,7 @@ $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Inherit from kenzo device
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
+$(call inherit-product, vendor/xiaomi/kenzo/kenzo-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
@@ -41,3 +42,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/6.7.21:user/release-keys \
     PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M 6.7.21 release-keys"
 endif
+
