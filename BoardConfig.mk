@@ -162,7 +162,7 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_POWERHAL_VARIANT := qcom
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/xiaomi/kenzo/system.prop
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
@@ -198,4 +198,4 @@ WIFI_DRIVER_FW_PATH_AP      := "ap"
 WIFI_DRIVER_FW_PATH_STA     := "sta"
 
 # inherit from the proprietary version
--include vendor/xiaomi/kenzo/BoardConfigVendor.mk
+-include vendor/xiaomi/kenzo/kenzo-vendor.mk
