@@ -61,6 +61,9 @@ video.accelerate.hw=1
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Google Assistant
+ro.opa.eligible_device=true
+
 # Media
 media.msm8956hw=1
 mm.enable.smoothstreaming=true
