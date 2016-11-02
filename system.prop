@@ -35,6 +35,7 @@ qcom.bluetooth.soc=smd
 
 # Camera
 persist.camera.HAL3.enabled=1
+camera.lowpower.record.enable=1
 
 # CNE/DPM
 persist.cne.feature=1
