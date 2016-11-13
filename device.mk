@@ -288,5 +288,5 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/kenzo/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
 
 # Boot Cleaner
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILEFILFILFILFILFILS += \
     device/xiaomi/kenzo/prebuilt/etc/init.d/81clean:system/etc/init.d/81clean
