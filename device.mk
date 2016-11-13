@@ -279,14 +279,3 @@ PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
     wpa_supplicant_overlay.conf
 
-# BSOD Killer
-PRODUCT_COPY_FILES += \
-    device/xiaomi/kenzo/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
-
-# Dalvik-Hack
-PRODUCT_COPY_FILES += \
-    device/xiaomi/kenzo/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
-
-# Boot Cleaner
-PRODUCT_COPY_FILEFILFILFILFILFILS += \
-    device/xiaomi/kenzo/prebuilt/etc/init.d/81clean:system/etc/init.d/81clean
