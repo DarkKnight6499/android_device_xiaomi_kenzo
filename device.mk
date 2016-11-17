@@ -109,7 +109,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2
+    Camera2 \
+    Camero
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
