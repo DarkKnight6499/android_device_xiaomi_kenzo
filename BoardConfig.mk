@@ -121,9 +121,6 @@ TARGET_LDPRELOAD := libNimsWrap.so
 #  endif
 #endif
 
-#Disable NINJA
-USE_NINJA := false
-
 # Display
 BOARD_USES_ADRENO := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
