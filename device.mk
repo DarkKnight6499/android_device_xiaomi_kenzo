@@ -165,6 +165,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += telephony-ext ims-ext-common
 PRODUCT_BOOT_JARS += telephony-ext
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims \
+    imscmlibrary \
+    init.qti.ims.sh
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
+    $(LOCAL_PATH)/configs/ims/ims.xml:system/etc/permissions/ims.xml \
+    $(LOCAL_PATH)/configs/ims/qti_permissions.xml:system/etc/permissions/qti_permissions.xml
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc
