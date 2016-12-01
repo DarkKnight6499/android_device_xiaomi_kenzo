@@ -1,15 +1,15 @@
 [
  {
-    "repository":  "kernel_xiaomi_msm8956",
+    "repository":  "AKabhishek/android_kernel_xiaomi_msm8956",
     "target_path": "kernel/xiaomi/msm8956",
-    "branch":      "n7.1",
-	"remote":      "cypher"
+    "branch":      "n-new",
+	"remote":      "github"
   },
   {
-    "repository":  "proprietary_vendor_xiaomi",
+    "repository":  "AKabhishek/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch":      "n7.1",
-	"remote":      "cypher"
+    "branch":      "cm-14.1",
+	"remote":      "github"
   },
   {
     "repository":  "android_device_qcom_common",
